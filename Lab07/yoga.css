@@ -1,0 +1,65 @@
+header, nav, main, footer { display: block; }
+
+* { box-sizing: border-box; }
+
+body	{ background-color: #3f2860;
+	  color: #3f2860;
+          font-family: Veranda, Arial, sans-serif; }
+
+header  { background-color: #9bc1c2;
+          background-image: url(lilyheader.jpg);
+          background-position: right;
+          background-repeat: no-repeat;
+          height: 150px; }  
+
+h1	{ padding-top: 50px;
+          padding-left: 2em; } 
+          
+nav	{ font-weight: bold;
+	  float: left;
+          width: 160px;
+	  padding: 1em; }
+
+nav a	{ text-decoration: none; 
+          font-weight: bold;
+          padding: 1em;
+          display: block;
+          text-align: center;
+          border: 3px outset #CCCCCC;
+          margin-botton: 1em;}
+
+nav a:link { color: #497777; }
+nav a:visited { color: #497777; }
+nav a:hover { color: #A26100;
+              border: 3px inset #333333; }
+
+nav ul { list-style-type: none;
+         padding-left: 0; }
+
+
+main    { padding-right: 2em;
+          margin-left: 170px;
+          padding-top: 1em;
+          display: block; }
+
+.floatleft { float: left;
+            margin-right: 4em; } 
+
+.studio { font-style: italic; }
+
+.company{ font-style: italic; }
+
+footer	{ background-color: #9bc1c2;
+	  font-size: .60em;
+	  font-style: italic;
+	  text-align: center;
+          padding: 1em; }
+
+clear { clear: both; }
+
+#wrapper { background-color: white; 
+           min-width: 1200px; 
+           max-width: 1480px;
+           width: 80%; 
+           margin-right: auto;
+           margin-left: auto; }
